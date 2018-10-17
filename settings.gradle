@@ -1,0 +1,6 @@
+include ':app', ':SlidingMenu_library', ':xutils', ':xUtils3_sample'
+include ':ViewPagerIndicator_library'
+include ':ViewPagerIndicator_sample'
+include ':ViewPagerIndicator_sample'
+include ':Viewpagerindicator_library'
+include ':ViewPagerIndicator_sample'

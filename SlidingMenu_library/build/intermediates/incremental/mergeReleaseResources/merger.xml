@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\488cc545435b5352971e10cd5c6d8838bdbc1a90\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\a7c0d7bd45a1eee8881866d9e8792080726ab727\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\73497b57620ac48617fa0c24a459e4ee0a0ef1be\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\1979a2a02fb1d27b7e7a5a12008795984c5a6cd6\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\2843ca34da283423222d63d0bf0e1dcd56559152\output\res"/></dataSet><dataSet config="output$Generated" generated="true"><source path="C:\Users\陈宣嘉\.android\build-cache\55be2206f6ff06b410b7971614d398f3bbd07db0\output\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\MyApplication\SlidingMenu_library\res"/><source path="D:\MyApplication\SlidingMenu_library\build\generated\res\rs\release"/><source path="D:\MyApplication\SlidingMenu_library\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\MyApplication\SlidingMenu_library\src\release\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\488cc545435b5352971e10cd5c6d8838bdbc1a90\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\a7c0d7bd45a1eee8881866d9e8792080726ab727\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\73497b57620ac48617fa0c24a459e4ee0a0ef1be\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\1979a2a02fb1d27b7e7a5a12008795984c5a6cd6\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\2843ca34da283423222d63d0bf0e1dcd56559152\output\res"/></dataSet><dataSet config="output" from-dependency="true" generated-set="output$Generated"><source path="C:\Users\陈宣嘉\.android\build-cache\55be2206f6ff06b410b7971614d398f3bbd07db0\output\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\MyApplication\SlidingMenu_library\res"><file name="slidingmenumain" path="D:\MyApplication\SlidingMenu_library\res\layout\slidingmenumain.xml" qualifiers="" type="layout"/><file path="D:\MyApplication\SlidingMenu_library\res\values\attrs.xml" qualifiers=""><declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr format="reference" name="viewAbove"/>
+        <attr format="reference" name="viewBehind"/>
+        <attr format="dimension" name="behindOffset"/>
+        <attr format="dimension" name="behindWidth"/>
+        <attr format="float" name="behindScrollScale"/>
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr format="reference" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="fadeEnabled"/>
+        <attr format="float" name="fadeDegree"/>
+        <attr format="boolean" name="selectorEnabled"/>
+        <attr format="reference" name="selectorDrawable"/>
+    </declare-styleable></file><file path="D:\MyApplication\SlidingMenu_library\res\values\ids.xml" qualifiers=""><item name="selected_view" type="id"/></file></source><source path="D:\MyApplication\SlidingMenu_library\build\generated\res\rs\release"/><source path="D:\MyApplication\SlidingMenu_library\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\MyApplication\SlidingMenu_library\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingMenu"><attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable></configuration></mergedItems></merger>
