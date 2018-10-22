@@ -22,6 +22,8 @@
         <activity android:name=".activity.GuideActivity" />
         <activity android:name=".activity.MainActivity"
             android:theme="@style/Theme.PageIndicatorDefaults"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.SignupActivity"></activity>
     </application>
 
 </manifest>

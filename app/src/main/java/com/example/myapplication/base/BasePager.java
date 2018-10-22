@@ -1,12 +1,15 @@
 package com.example.myapplication.base;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.myapplication.R;
+import com.example.myapplication.activity.LoginActivity;
 import com.example.myapplication.activity.MainActivity;
 import com.example.myapplication.utils.CacheUtils;
 
@@ -20,7 +23,7 @@ public class BasePager {
     public TextView tv_title;
     public ImageButton ib_menu;
     public FrameLayout fl_content;
-
+    public TextView tv_login;
 
     public BasePager(Context context){
         this.context=context;
@@ -33,7 +36,15 @@ public class BasePager {
         tv_title= (TextView) view.findViewById(R.id.tv_title);
         ib_menu= (ImageButton) view.findViewById(R.id.ib_menu);
         fl_content= (FrameLayout) view.findViewById(R.id.fl_content);
+        tv_login= (TextView) view.findViewById(R.id.tv_login);
 
+        tv_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(context,LoginActivity.class);
+                context.startActivity(intent);
+            }
+        });
         ib_menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

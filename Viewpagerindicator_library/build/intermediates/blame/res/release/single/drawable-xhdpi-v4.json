@@ -12,12 +12,12 @@
         "source": "D:\\MyApplication\\Viewpagerindicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "D:\\MyApplication\\Viewpagerindicator_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
-        "source": "D:\\MyApplication\\Viewpagerindicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\MyApplication\\Viewpagerindicator_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
         "source": "D:\\MyApplication\\Viewpagerindicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\MyApplication\\Viewpagerindicator_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\MyApplication\\Viewpagerindicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png"
     },
     {
         "merged": "D:\\MyApplication\\Viewpagerindicator_library\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",

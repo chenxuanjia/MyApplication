@@ -21,4 +21,14 @@
             android:id="@+id/ib_menu"
             android:src="@drawable/img_menu"
             android:background="@android:color/transparent"/>
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="登陆"/>
     </RelativeLayout>

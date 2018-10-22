@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="user_login">登录</string>
+
+    <string name="title_activity_regiter">没有账号？注册一个</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码 </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to signup -->
+    <string name="user_name">用户名</string>
+    <string name="user_regiter">注册</string>
+    <string name="title_activity_login">已有账号？去登录</string>
+
+    <!-- 自己设置 -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="login_icon">Login Icon</string>
 </resources>

@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.example.myapplication.R;
 import com.example.myapplication.fragment.ContentFragment;
@@ -12,6 +13,8 @@ import com.example.myapplication.fragment.LeftmenuFragment;
 import com.example.myapplication.utils.DensityUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+
+import org.xutils.common.util.LogUtil;
 
 public class MainActivity extends SlidingFragmentActivity {
 

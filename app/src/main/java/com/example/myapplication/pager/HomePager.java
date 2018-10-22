@@ -11,6 +11,7 @@ import com.example.myapplication.activity.MainActivity;
 import com.example.myapplication.base.BasePager;
 import com.example.myapplication.base.MenuDetaiBasePager;
 import com.example.myapplication.domain.NewscenterPagerBean2;
+import com.example.myapplication.domain.UserInfo;
 import com.example.myapplication.fragment.LeftmenuFragment;
 import com.example.myapplication.menudetailpager.InteracMenuDetailPager;
 import com.example.myapplication.menudetailpager.NewsMenuDetailPager;
@@ -36,17 +37,25 @@ import java.util.List;
  */
 
 public class HomePager extends BasePager {
+    private int Id=0;
     //左侧菜单对应的集合
     private List<NewscenterPagerBean2.DetailPagerData> data;
     private ArrayList<MenuDetaiBasePager> detaiBasePagers;//详情页面集合
-
     public HomePager(Context context) {
         super(context);
+    }
+
+    public void GetId(int uid){
+        Id=uid;
     }
 
     @Override
     public void initData() {
         super.initData();
+        if (Id != 0){
+            tv_login.setText(Id);
+        }
+        tv_login.setText("登陆");
         ib_menu.setVisibility(View.VISIBLE);
         //设置标题
         tv_title.setText("主页面");

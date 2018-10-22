@@ -38,7 +38,6 @@ public class ContentFragment extends BaseFragment {
     private NoScroolViewPager  viewPager;
     @ViewInject(R.id.rg_main)
     private RadioGroup rg_main;
-
     private ArrayList<BasePager> basePagers;
 
     @Override
